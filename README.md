@@ -10,8 +10,6 @@ This project is a machine learning-based recipe recommendation system. It uses d
 4. [Installation](#installation)
 5. [Usage](#usage)
 6. [Dependencies](#dependencies)
-7. [Contributing](#contributing)
-8. [License](#license)
 
 ---
 
