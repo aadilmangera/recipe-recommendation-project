@@ -23,16 +23,27 @@ The project is implemented in Python, using libraries such as `pandas`, `numpy`,
 
 ## Dataset
 
-- Source: [Kaggle E-Commerce Dataset]([https://www.kaggle.com/datasets/carrie1/ecommerce-data](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions))
+- Source: [Food.com Recipes and Interactions Dataset](https://www.kaggle.com/datasets/shuyangli94/food-com-recipes-and-user-interactions)
+- Description: Contains recipe details (ingredients, cooking time, etc.) and user interaction data for personalized recommendations.
   
 ---
 
 ## Features
 
-- **Data Processing**: Prepares raw data for analysis and model training.
-- **Model Training**: Trains machine learning models for recipe recommendations.
-- **Evaluation**: Evaluates model performance with metrics like accuracy and precision.
-- **Recommendations**: Suggests recipes based on input user preferences.
+- **Data Processing**: Cleans and prepares recipe data (ingredients, cooking time, etc.) for analysis.
+- **Feature Engineering**: Converts recipe ingredients into TF-IDF features and reduces dimensions using SVD.
+- **Model Training**:
+    - Implements **Cosine Similarity**, **KNN**, and **NMF** for recipe recommendations.
+- **Evaluation**: Measures recommendation performance using Precision at K and diversity metrics.
+- **Recommendations**: Suggests recipes based on input ingredients provided by the user.
+
+---
+
+## Results
+
+- The project compares three recommendation methods: Cosine Similarity, KNN, and NMF.
+- **Best Performing Model**: Cosine Similarity with Precision@K = 1.0.
+- **Diversity**: KNN and NMF provide a balance between precision and diverse recipe suggestions.
 
 ---
 
@@ -59,7 +70,7 @@ The project is implemented in Python, using libraries such as `pandas`, `numpy`,
 
 1. Open the Jupyter notebook file in the `notebooks/` folder:
     ```bash
-    jupyter notebook notebooks/ml_recipe_recommendation_project.ipynb
+    jupyter notebook notebooks/recipe_recommendation_project.ipynb
     ```
 
 2. Follow the step-by-step instructions in the notebook to run the project.
