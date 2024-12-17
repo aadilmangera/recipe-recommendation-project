@@ -7,9 +7,10 @@ This project is a machine learning-based recipe recommendation system. It uses d
 1. [Project Overview](#project-overview)
 2. [Dataset](#dataset)
 3. [Features](#features)
-4. [Installation](#installation)
-5. [Usage](#usage)
-6. [Dependencies](#dependencies)
+4. [Results](#results)
+5. [Installation](#installation)
+6. [Usage](#usage)
+7. [Dependencies](#dependencies)
 
 ---
 
