@@ -52,7 +52,7 @@ The project is implemented in Python, using libraries such as `pandas`, `numpy`,
 
 1. Clone the repository:
     ```bash
-    git clone https://github.com/yourusername/recipe-recommendation-project.git
+    git clone https://github.com/aadilmangera/recipe-recommendation-project.git
     ```
 
 2. Navigate to the project folder:
@@ -86,7 +86,6 @@ The project uses the following Python libraries:
 - `scikit-learn`
 - `matplotlib`
 - `seaborn`
-- `jupyter`
 
 Install all dependencies using:
 ```bash
